@@ -8,8 +8,8 @@
 // @author			Burak Şipşak
 // @match			https://bskhvac.odoo.com/*
 // @grant			none
-// @updateURL		https://raw.githubusercontent.com/sipsak/odoo-image-enlarger/refs/heads/main/Odoo-Image-Enlarger-v1.0.js
-// @downloadURL		https://raw.githubusercontent.com/sipsak/odoo-image-enlarger/refs/heads/main/Odoo-Image-Enlarger-v1.0.js
+// @updateURL		https://raw.githubusercontent.com/sipsak/odoo-image-enlarger/refs/heads/main/Odoo-Image-Enlarger.js
+// @downloadURL		https://raw.githubusercontent.com/sipsak/odoo-image-enlarger/refs/heads/main/Odoo-Image-Enlarger.js
 // ==/UserScript==
 
 (function() {
