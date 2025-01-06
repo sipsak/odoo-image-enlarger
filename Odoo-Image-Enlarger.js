@@ -2,12 +2,13 @@
 // @name			Odoo Image Enlarger
 // @name:tr			Odoo Görsel Büyütücü
 // @namespace		https://github.com/sipsak
-// @version			1.0
+// @version			1.1
 // @description		If the URLs loaded in Odoo ERP include the field "field=image_128", replace it with "field=image_1920"
 // @description:tr	Odoo'da yüklenen URL'lerde "field=image_128" diye bir alan geçiyorsa bunu "field=image_1920" olarak değiştirir
 // @author			Burak Şipşak
 // @match			https://bskhvac.odoo.com/*
 // @grant			none
+// @icon			https://raw.githubusercontent.com/sipsak/odoo-image-enlarger/refs/heads/main/icon.png
 // @updateURL		https://raw.githubusercontent.com/sipsak/odoo-image-enlarger/refs/heads/main/Odoo-Image-Enlarger.js
 // @downloadURL		https://raw.githubusercontent.com/sipsak/odoo-image-enlarger/refs/heads/main/Odoo-Image-Enlarger.js
 // ==/UserScript==
@@ -35,7 +36,7 @@
 
     // Dinamik değişiklikleri izlemek için MutationObserver
     const observer = new MutationObserver(() => {
-        console.log("DOM değişikliği algılandı, URL kontrol ediliyor...");
+        console.log("DOM değişikliği algılandı, URL değişikliği uygulanıyor...");
         updateImageSrc();
     });
 
